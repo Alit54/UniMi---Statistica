@@ -10,7 +10,7 @@ session = fastf1.get_session(2023, 'Bahrain Grand Prix', 'R')
 session.load()
 
 #get Alonso pace
-alonso = session.laps.pick_driver('ALO')
+alonso = session.laps.pick_driver('VER')
 
 fig, ax = plt.subplots()
 
